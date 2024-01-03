@@ -1,0 +1,26 @@
+body{
+    background-image: url('C:/Users/ELCOT/Pictures/quiz.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+center{
+    margin-top: 15%;
+}
+button{
+    padding: 1% 4% 1% 4%;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: medium;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.div1{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+hr{
+    color: black;
+    margin-top: 3%;
+    border:1px solid black ;
+}

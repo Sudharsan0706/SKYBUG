@@ -1,0 +1,244 @@
+.allheading{
+    margin: 1rem auto;
+    animation: neon 1s ease infinite;
+}
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: 0 0 10px rgb(4, 158, 209), 0 0 20px rgb(4, 158, 209), 0 0 20px rgb(4, 158, 209), 0 0 20px rgb(4, 158, 209), 0 0 2px rgb(3, 67, 88), 2px 2px 2px rgb(3, 67, 88);
+        color: #f5efcb;
+    }
+    50% {
+        text-shadow: 0 0 2px rgb(1, 87, 201), 0 0 5px rgb(1, 87, 201), 0 0 5px rgb(1, 87, 201), 0 0 5px rgb(1, 87, 201), 0 0 2px rgb(1, 87, 201), 4px 4px 2px rgb(1, 87, 201);
+        color: #f5efcb;
+    }
+}
+.nav{
+    display: flex;
+    column-gap: 2%;
+    padding: 2% 3% 1.5%;
+}
+.naviconbtn{
+    display: none;
+}
+.navbtn{
+    color: rgb(4, 158, 209);
+    text-decoration: none;
+    font-weight: bold;
+}
+.top{
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(120deg,rgb(4, 158, 209),rgb(243, 99, 123));
+    color: white;
+    display: flex;
+    padding: 3% 3% 3% 5%;
+}
+.topdiv1{
+    height: auto;
+    width: 75%;
+}
+.topdiv2{
+    height: auto;
+    width: 25%;
+}
+.topphoto{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.resumebtn{
+    background-image: linear-gradient(120deg,rgb(4, 158, 209),rgb(243, 99, 123));
+    color: white;
+    border: 1px solid white;
+    font-size: medium;
+    padding: 2% 10% 2% 10%;
+    font-weight: bold;
+    border-radius: 2rem;
+    margin-top: 4%;
+    cursor: pointer;
+}
+.aboutdiv{
+    display:flex;
+    padding: 5% 5% 5% 5%;
+}
+.aboutdiv1{
+    height: auto;
+    width: 50%;
+}
+.aboutimg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+.aboutdiv2{
+    height: auto;
+    width:50%;
+    margin-left: 3%;
+    text-align: justify;
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+
+}
+.edutabdiv{
+    margin-left: 5%;
+}
+.edufont{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.tab-button{
+    color:white;
+}
+.project{
+    margin-left: 8%;
+    margin-right: 10%;   
+    margin-top: 5%;
+}
+.accordion-button,.accordion-button:focus{
+    background-image:linear-gradient(120deg,rgb(4, 158, 209),rgb(243, 99, 123)) !important; 
+    color: white;
+}
+.accordion-body{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.progressbar{
+    height: 10% !important;
+    width: 10% !important;
+    margin-left: 18%;
+    margin-top: 3%;
+}
+.progressbardiv{
+    display: flex;
+}
+.progressbarfont{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.carouselimg{
+    height: 100%;
+    width: 100%;    
+}
+@media(max-width:540px){
+    .nav{
+        display: none;
+    }
+    .naviconbtn{
+        display: block;
+        background-color: white;
+        color:black;
+        margin-left: auto;
+        border: none;
+    }
+    .navli{
+        text-decoration: none;
+        color:rgb(4, 158, 209);
+        line-height: 2;
+        font-weight: bold;
+    }
+    .top{
+        height: auto;
+        width: auto;
+        background-image: linear-gradient(120deg,rgb(4, 158, 209),rgb(243, 99, 123));
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 3% 3% 3% 3%;
+    }
+    .topdiv1{
+        height: auto;
+        width: 75%;
+        margin-left: 10%;
+    }
+    .topdiv2{
+        height: auto;
+        width: 25%;
+        margin-top: 4%;
+        margin-left: 35%;
+    }
+    .topphoto{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .resumebtn{
+        background-image: linear-gradient(120deg,rgb(4, 158, 209),rgb(243, 99, 123));
+        color: white;
+        border: 1px solid white;
+        margin-left: 29%;
+        padding: 2% 10% 2% 10%;
+        font-weight: bold;
+        border-radius: 2rem;
+        margin-top: 4%;
+    }
+    .aboutdiv{
+        display:flex;
+        flex-direction: column;
+        padding: 3% 3% 3% 3%;
+    }
+    .aboutdiv1{
+        height: auto;
+        width: 100%;
+        margin-left: 0.5%;
+        margin-bottom: 3%;
+    }
+    .aboutimg{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 2rem;
+    }
+    .aboutdiv2{
+        height: auto;
+        width:100%;
+        margin-left: 0.5%;
+        text-align: justify;
+        line-height:1.6;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 5%;
+    }
+    .edutabdiv{
+        margin-left: 5%;
+    }
+    .edufont{
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-left: 5%;
+    }
+    .project{
+        margin-left: 8%;
+        margin-right: 10%;   
+        margin-top: 8%;
+    }
+    .accordion-body{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    }
+    .progressbar{
+        height: 18% !important;
+        width: 18% !important;
+        margin-left: 12%;
+        margin-top: 3%;
+    }
+    .progressbarfont{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: xx-small;
+        font-weight: bold;
+        margin-top: 5%;
+    }
+    .mb-3{
+        display: flex;
+    }
+}
